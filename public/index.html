@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Divisas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Conversor de Divisas</h1>
+        
+        <div class="form-group">
+            <label for="from">De:</label>
+            <select id="from">
+                <option value="USD">USD - Dólar</option>
+                <option value="EUR">EUR - Euro</option>
+                <option value="CLP">CLP - Peso Chileno</option>
+                <option value="GBP">GBP - Libra</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="to">A:</label>
+            <select id="to">
+                <option value="EUR">EUR - Euro</option>
+                <option value="USD">USD - Dólar</option>
+                <option value="CLP">CLP - Peso Chileno</option>
+                <option value="GBP">GBP - Libra</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="amount">Cantidad:</label>
+            <input type="number" id="amount" value="1" min="1">
+        </div>
+
+        <button id="convert">Convertir</button>
+
+        <h2 id="result">Resultado: </h2>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,2 @@
+1)Que cada divisa contenga su bandera correspondiente
+2)Efectos a los input-label y buttons

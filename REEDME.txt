@@ -1,0 +1,3 @@
+Este es un convertidor de monedas usado con una API gratuita,
+por ahora solo contiene pocas divisas pero la idea es ir
+agregando mas con el paso del tiempo
